@@ -8,7 +8,7 @@ GPIO.setmode (GPIO.BCM)
 GPIO.setup (dac, GPIO.OUT)
 GPIO.setup (troyka, GPIO.OUT, initial=GPIO.HIGH)
 GPIO.setup (comp, GPIO.IN)
-
+#uwu
 def decimal2binary(value): 
     return [int(bit) for bit in bin(value)[2:].zfill(8)]
 
